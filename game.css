@@ -1,0 +1,94 @@
+body {
+    background-color: brown;
+}
+
+.world {
+    background-color: lightblue;
+    width: 405px;
+    height: 600px;
+    border-left: 6px solid black;
+    border-right: 6px solid black;
+}
+
+.world .score:first-child{
+    position: absolute;
+    font-weight: 600;
+    font-size: 25px;
+    top: 15px;
+    left:15px;
+}
+
+#hero {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: 500px;
+    left: 190px;
+}
+
+.enemy {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+
+}
+
+.enemy2 {
+    width: 40px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+
+}
+
+.res, .change{
+    position: absolute;
+    left: 135px;
+    top: 150px;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.change{
+    position: absolute;
+    left: 80px;
+    top: 350px;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#missiles {
+    width: 700px;
+    height: 600px;
+    position: absolute;
+
+}
+
+#enemies {
+    width: 700px;
+    height: 600px;
+    position: absolute;
+
+}
+
+.missile {
+    background-color: white;
+    width: 5px;
+    height: 16px;
+    position: absolute;
+}
+
+
+.abs{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: blue;
+    top: 300px;
+    left: 500px;
+
+}
